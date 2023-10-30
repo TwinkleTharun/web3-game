@@ -33,17 +33,6 @@ npx hardhat run scripts/deploy.js --network localhost
 npm run dev
 ```
 
-### Configuration
-
-You will need to configure a .env file for some environment variables to work. You can have separate files for local vs development networks, using .env.local and .env.development, as well as other options.
-
-```
-RINKEBY_ALCHEMY_URL=https://eth-rinkeby.alchemyapi.io/v2/{Your alchemy API key}
-RINKEBY_PRIVATE_KEY={Your private key}
-
-NEXT_PUBLIC_GAME_ITEMS_ADDR={Contract address of GameItems once deployed}
-NEXT_PUBLIC_GAME_ADDR={Contract address of Game once deployed
-```
 
 ### Screenshots
 
